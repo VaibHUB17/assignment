@@ -1,0 +1,10 @@
+{
+  "name": "lone-town",
+  "version": "1.0.0",
+  "description": "Lone Town - a mindful dating platform",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "cd server && npm install && npm run build",
+    "dev": "cd server && npm run dev"
+  }
+}
