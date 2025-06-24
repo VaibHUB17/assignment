@@ -4,7 +4,11 @@
   "description": "Lone Town - a mindful dating platform",
   "scripts": {
     "start": "cd server && npm start",
-    "build": "cd server && npm install && npm run build",
-    "dev": "cd server && npm run dev"
+    "build": "cd server && npm clean-install && npm run build",
+    "dev": "cd server && npm run dev",
+    "postinstall": "cd server && npm clean-install"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
